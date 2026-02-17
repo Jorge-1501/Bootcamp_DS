@@ -1,0 +1,18 @@
+# --- Mis carpetas privadas ---
+clases/
+borradores/
+
+# --- Archivos de sistema y configuraciones ---
+.DS_Store
+.idea/
+.vscode/
+
+# --- Archivos temporales de Python y Jupyter ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Datos (Opcional pero recomendado) ---
+# Es buena práctica NO subir CSVs pesados (>100MB GitHub los rechaza)
+*.csv
+*.xlsx
